@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,4001,500&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.64);
+}
+
+.homebar {
+  background-color: orange;
+  padding: 0.7rem;
+}
+.homebar .icons-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.homebar .icons-1 .img-1 {
+  width: 55px;
+  height: 55px;
+  cursor: none;
+  justify-content: center;
+}
+.homebar .icons-1 .img-1:hover {
+  border: solid 1px rgb(255, 217, 0);
+  border-radius: 20px;
+  box-shadow: 0 0 10px 10px yellow;
+}
+.homebar .icons-1 .img-2 {
+  width: 55px;
+  height: 55px;
+  cursor: none;
+}
+.homebar .icons-1 .img-2:hover {
+  border: solid 1px red;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 10px rgb(184, 11, 11);
+}
+.homebar .icons-1 .img-3 {
+  width: 55px;
+  height: 55px;
+  cursor: none;
+}
+.homebar .icons-1 .img-3:hover {
+  border: solid 1px white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 10px ghostwhite;
+}
+.homebar .icons-1 .img-4 {
+  width: 55px;
+  height: 55px;
+  cursor: none;
+}
+.homebar .icons-1 .img-4:hover {
+  border: solid 1px salmon;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 10px burlywood;
+}
+.homebar .icons-1 .img-5 {
+  width: 55px;
+  height: 55px;
+  cursor: none;
+}
+.homebar .icons-1 .img-5:hover {
+  border: solid 1px orange;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 10px black;
+}
+.homebar .icons-1 .img-6 {
+  width: 55px;
+  height: 55px;
+  cursor: none;
+}
+.homebar .icons-1 .img-6:hover {
+  border: solid 1px white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 10px cornflowerblue;
+}
+
+.title h2 {
+  margin: 0;
+  padding: 0;
+  background-color: yellow;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-size: xx-large;
+  text-align: center;
+}
+.title h2 .suriken-1 {
+  width: 55px;
+  height: 55px;
+  cursor: none;
+  animation: moveleft infinite 5s;
+}
+@keyframes moveleft {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(360deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(360deg);
+  }
+}
+.title h2 .suriken-2 {
+  width: 55px;
+  height: 55px;
+  cursor: none;
+  animation: moveright infinite 5s;
+}
+@keyframes moveright {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-360deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-360deg);
+  }
+}
+
+.body .dbz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.body .dbz img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  border: solid 1px black;
+  box-shadow: 0 0 4px 4px black;
+}
+.body .dbz p {
+  padding: 5px;
+  background-color: rgba(240, 248, 255, 0.855);
+  border-radius: 10px;
+  border: dotted 2px black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: small;
+  text-align: center;
+}
+.body .dbz .buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.body .dbz .buttons audio {
+  width: 300px;
+  height: 20px;
+  border: solid 2px black;
+  border-radius: 12px;
+}
+.body .dbz .buttons button.op {
+  background-color: orange;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.body .dbz .buttons button.op:hover {
+  background-color: aliceblue;
+  box-shadow: 0 0 5px 5px black;
+}
+.body .dbz .buttons button.stop {
+  background-color: orange;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.body .dbz .buttons button.stop:hover {
+  background-color: aliceblue;
+  box-shadow: 0 0 5px 5px black;
+}
+.body .AoT {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.body .AoT img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  border: solid 1px black;
+  box-shadow: 0 0 4px 4px black;
+}
+.body .AoT p {
+  padding: 5px;
+  background-color: rgba(240, 248, 255, 0.855);
+  border-radius: 10px;
+  border: dotted 2px black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: small;
+  text-align: center;
+}
+.body .AoT .buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.body .AoT .buttons audio {
+  width: 300px;
+  height: 20px;
+  border: solid 2px black;
+  border-radius: 12px;
+}
+.body .AoT .buttons button.op {
+  background-color: orange;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.body .AoT .buttons button.op:hover {
+  background-color: aliceblue;
+  box-shadow: 0 0 5px 5px black;
+}
+.body .AoT .buttons button.stop {
+  background-color: orange;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.body .AoT .buttons button.stop:hover {
+  background-color: aliceblue;
+  box-shadow: 0 0 5px 5px black;
+}
+.body .fma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.body .fma img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  border: solid 1px black;
+  box-shadow: 0 0 4px 4px black;
+}
+.body .fma p {
+  padding: 5px;
+  background-color: rgba(240, 248, 255, 0.855);
+  border-radius: 10px;
+  border: dotted 2px black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: small;
+  text-align: center;
+}
+.body .fma .buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.body .fma .buttons audio {
+  width: 300px;
+  height: 20px;
+  border: solid 2px black;
+  border-radius: 12px;
+}
+.body .fma .buttons button.op {
+  background-color: orange;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.body .fma .buttons button.op:hover {
+  background-color: aliceblue;
+  box-shadow: 0 0 5px 5px black;
+}
+.body .fma .buttons button.stop {
+  background-color: orange;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.body .fma .buttons button.stop:hover {
+  background-color: aliceblue;
+  box-shadow: 0 0 5px 5px black;
+}
+.body .parasyte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.body .parasyte img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  border: solid 1px black;
+  box-shadow: 0 0 4px 4px black;
+}
+.body .parasyte p {
+  padding: 5px;
+  background-color: rgba(240, 248, 255, 0.855);
+  border-radius: 10px;
+  border: dotted 2px black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: small;
+  text-align: center;
+}
+.body .parasyte .buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.body .parasyte .buttons audio {
+  width: 300px;
+  height: 20px;
+  border: solid 2px black;
+  border-radius: 12px;
+}
+.body .parasyte .buttons button.op {
+  background-color: orange;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.body .parasyte .buttons button.op:hover {
+  background-color: aliceblue;
+  box-shadow: 0 0 5px 5px black;
+}
+.body .parasyte .buttons button.stop {
+  background-color: orange;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.body .parasyte .buttons button.stop:hover {
+  background-color: aliceblue;
+  box-shadow: 0 0 5px 5px black;
+}
+.body .kimetsu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.body .kimetsu img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  border: solid 1px black;
+  box-shadow: 0 0 4px 4px black;
+}
+.body .kimetsu p {
+  padding: 5px;
+  background-color: rgba(240, 248, 255, 0.855);
+  border-radius: 10px;
+  border: dotted 2px black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: small;
+  text-align: center;
+}
+.body .kimetsu .buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.body .kimetsu .buttons audio {
+  width: 300px;
+  height: 20px;
+  border: solid 2px black;
+  border-radius: 12px;
+}
+.body .kimetsu .buttons button.op {
+  background-color: orange;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.body .kimetsu .buttons button.op:hover {
+  background-color: aliceblue;
+  box-shadow: 0 0 5px 5px black;
+}
+.body .kimetsu .buttons button.stop {
+  background-color: orange;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.body .kimetsu .buttons button.stop:hover {
+  background-color: aliceblue;
+  box-shadow: 0 0 5px 5px black;
+}
+.body .chainsaw-man {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.body .chainsaw-man img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  border: solid 1px black;
+  box-shadow: 0 0 4px 4px black;
+}
+.body .chainsaw-man p {
+  padding: 5px;
+  background-color: rgba(240, 248, 255, 0.855);
+  border-radius: 10px;
+  border: dotted 2px black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: small;
+  text-align: center;
+}
+.body .chainsaw-man .buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.body .chainsaw-man .buttons audio {
+  width: 300px;
+  height: 20px;
+  border: solid 2px black;
+  border-radius: 12px;
+}
+.body .chainsaw-man .buttons button.op {
+  background-color: orange;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.body .chainsaw-man .buttons button.op:hover {
+  background-color: aliceblue;
+  box-shadow: 0 0 5px 5px black;
+}
+.body .chainsaw-man .buttons button.stop {
+  background-color: orange;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.body .chainsaw-man .buttons button.stop:hover {
+  background-color: aliceblue;
+  box-shadow: 0 0 5px 5px black;
+}
+
+/*# sourceMappingURL=styles.css.map */
